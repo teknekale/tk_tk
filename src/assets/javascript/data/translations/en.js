@@ -11,7 +11,8 @@ Config.$inject = ['$translateProvider'];
 function Config($translateProvider) {
     $translateProvider.translations('en', {
 
-        'HELLO'    : 'Hello World.'
+        'HELLO'     : 'Hello World.',
+        'BTN_LOGIN' : 'Login'
     });
 
     $translateProvider.preferredLanguage('en');

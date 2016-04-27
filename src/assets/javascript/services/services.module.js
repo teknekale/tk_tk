@@ -1,3 +1,5 @@
 'use strict';
 
 angular.module('app.services', ['ngResource']);
+
+require('services/login');

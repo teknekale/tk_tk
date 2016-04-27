@@ -1,3 +1,9 @@
 <div class="body">
     {{ 'HELLO' | translate }}
+    <br>
+    <input ng-module="username" placeholde="username" type="text"/><br>
+    <input ng-module="password" placeholde="username" type="password"/><br>
+    <button ng-click="login()" type="button">{{ 'BTN_LOGIN' | translate }}</button><br>
+    <br>
+    Auth: {{ auth }}
 </div>
